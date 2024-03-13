@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    z-index: 1000;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+    z-index: 1000;
+}
+.navbar-start{
+   
+    width: 100%;
+    background-color: #eff4fd;
+    /* box-shadow: 0px 4px 9px -4px  rgb(16, 160, 129); */
+    z-index: 1000;
+  
+   
+}
+.mybtn{
+    display: inline-block;
+    padding: 9px 15px;
+    border: 2px solid black;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    /* margin-top: 5px; */
+    background-color:rgb(16, 160, 129)  ;
+    z-index: 1000;
+    border-radius: 40px;
+}
+.nav-link{
+    margin-left: 2rem !important;
+}
+.mybtn:hover{
+    background-color:rgb(38, 235, 192);
+    color: black;
+}
+.nav-item a{
+    font-weight: bold;
+    color: black;
+    z-index: 1000;
+}
+.nav-item a:hover{
+    color:rgb(16, 160, 129) ;
+}
+
+/* Image section start */
+.main{
+    height: 80vh;
+    width: 100vw;
+    background-image: url('https://i.pinimg.com/564x/dd/6a/3f/dd6a3f6bdf8c7c4cbc6f04236ee5d9ab.jpg');
+    background-size: 100% 100%;
+}
+.secmain{
+    background-color:rgba(0,0,0,.6) ;
+    width: 100vw;
+    height: 80vh;
+}
+.secmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secmain h1{
+    font-size:40px;
+    color:rgb(38, 235, 192) ;
+    margin: 0;
+    font-weight: bolder;
+    z-index:1000 ;
+}
+.secmain p{
+    z-index: 1000;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.secmain a{
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid black;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(38, 235, 192) ;
+    z-index: 1000;
+    border-radius: 50px;
+
+} 
+
+
+/* small card start */
+.secsmallcard{
+    /* border: 1px solid red; */
+    height: 25vh;
+    
+}
+.box{
+    height: 80px;
+    width: 70%;
+    border: 2px solid rgb(11, 82, 66);
+    margin-top: -30px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Health Section start */
+.healthcard{
+    /* border: 1px solid red;  */
+    height: 85vh;
+    background-color: #eff4fd;
+    
+}
+.healthcard a{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid black;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    background-color:rgb(38, 235, 192) ;
+    z-index: 1000;
+}
+.healthcard p{
+    font-size:15px;
+    margin:1rem 0 0 .5rem 0;
+}
+.healthcard img{
+    height:450px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Doctor Section start */
+.doctorcard{
+    /* border: 1px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.doctor .card img{
+  height: 45vh;
+}
+.card:hover{
+    box-shadow: 2px 2px 25px rgb(11, 82, 66);
+    margin-top: -5px;
+}
+
+/* Latest news start */
+.newscard{
+    /* border: 1px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4fd
+}
+.news .card img{
+    height: 40vh;
+    
+}
+
+/* Appointment start */
+.appointment{
+    /* border: 1px solid red; */
+    height: 80vh;
+}
+
+/* Footer start */
+.myfooter{
+    height: 40vh;
+    /* border: 1px solid red; */
+    background-color: rgba(23, 27, 25, 0.753);
+}
+.myfooter p{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.myfooter h4{
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.myfoot{
+    height: 8vh;
+    /* border: 1px solid red; */
+    background-color:rgba(8, 8, 8, 0.829);
+}
+.myfoot p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
